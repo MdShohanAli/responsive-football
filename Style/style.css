@@ -330,8 +330,10 @@ header {
 .players {
     width: 330px;
     height: 474px;
-    background: #FFF;
+    background: #F5F5F5;
     padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
 
 }
 
@@ -365,6 +367,23 @@ header {
 /* top players responsive style  */
 @media (max-width: 376px) {
 
+    .players-area {
+
+        margin-left: -150px;
+        margin-top: 32px;
+
+
+    }
+
+    .top-players {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+    }
+}
+
+@media (max-width: 688px) {
     .players-area {
 
         margin-left: -150px;
